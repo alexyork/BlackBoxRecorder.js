@@ -1,4 +1,4 @@
-var objectToTest = require("./../examples/someComplexModule");
+var objectToTest = require("./../examples/myModule");
 
 describe("generated unit tests", function() {
 	

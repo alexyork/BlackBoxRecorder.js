@@ -1,4 +1,4 @@
-function paramCocktail(aParam, anOtherParam, x, y, foo) {
+function badlyWrittenMethod(aParam, anOtherParam, x, y, foo) {
     return {
         params: (aParam + "_" + anOtherParam),
         result: (x + y),
@@ -7,9 +7,5 @@ function paramCocktail(aParam, anOtherParam, x, y, foo) {
 }
 
 module.exports = {
-    paramCocktail: paramCocktail
+    badlyWrittenMethod: badlyWrittenMethod
 };
-
-function x() {
-    return 0;
-}
